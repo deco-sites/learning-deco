@@ -40,7 +40,7 @@ function Footer({
   return (
     <footer
       class="px-5 sm:px-0 mt-5 sm:mt-10"
-      style={{ backgroundColor: "#EFF0F0" }}
+      style={{ backgroundColor: "#00000" }}
     >
       <div class="container flex flex-col gap-5 sm:gap-10 py-10">
         <ul class="grid grid-flow-row sm:grid-flow-col gap-6 ">
@@ -50,7 +50,7 @@ function Footer({
               <ul class="flex flex-col gap-2">
                 {children.map(({ title, href }) => (
                   <li>
-                    <a class="text-sm font-medium text-base-300" href={href}>
+                    <a class="text-sm text-red-400 font-medium text-base-300" href={href}>
                       {title}
                     </a>
                   </li>
